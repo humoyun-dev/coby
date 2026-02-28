@@ -1,0 +1,21 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mapFill" x1="90" y1="120" x2="760" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF0EC"/>
+      <stop offset="1" stop-color="#CCD7CF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="640" rx="32" fill="#F6F8F6"/>
+
+  <path
+    d="M145 252L208 194L309 165L384 181L450 143L563 176L644 154L720 206L707 272L742 332L702 378L631 395L594 442L539 430L486 467L407 452L324 474L266 441L213 447L172 399L144 332L145 252Z"
+    fill="url(#mapFill)"
+    stroke="#93A69A"
+    stroke-width="4"
+  />
+
+  <path d="M214 297L682 297" stroke="#1F7A4C" stroke-opacity="0.24" stroke-width="3" stroke-dasharray="10 10"/>
+  <path d="M268 226L620 406" stroke="#1F7A4C" stroke-opacity="0.2" stroke-width="3" stroke-dasharray="10 10"/>
+  <path d="M310 440L540 180" stroke="#1F7A4C" stroke-opacity="0.2" stroke-width="3" stroke-dasharray="10 10"/>
+</svg>

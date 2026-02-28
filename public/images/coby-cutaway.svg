@@ -1,0 +1,43 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCut" x1="140" y1="120" x2="1050" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F6F4"/>
+      <stop offset="1" stop-color="#DDE4DF"/>
+    </linearGradient>
+    <linearGradient id="bodyCut" x1="268" y1="120" x2="850" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAF9"/>
+      <stop offset="1" stop-color="#C6D0C9"/>
+    </linearGradient>
+    <linearGradient id="inside" x1="320" y1="260" x2="760" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18201D"/>
+      <stop offset="1" stop-color="#0F1412"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="40" fill="url(#bgCut)"/>
+
+  <rect x="250" y="110" width="700" height="700" rx="34" fill="url(#bodyCut)"/>
+  <rect x="288" y="170" width="624" height="590" rx="24" fill="#E5ECE7"/>
+  <rect x="322" y="208" width="556" height="496" rx="18" fill="url(#inside)"/>
+
+  <rect x="348" y="236" width="286" height="130" rx="12" fill="#1C2521"/>
+  <rect x="654" y="236" width="200" height="130" rx="12" fill="#232E29"/>
+  <rect x="348" y="390" width="506" height="120" rx="12" fill="#202B26"/>
+  <rect x="348" y="528" width="240" height="150" rx="12" fill="#26322D"/>
+  <rect x="608" y="528" width="246" height="150" rx="12" fill="#18201D"/>
+
+  <rect x="880" y="238" width="16" height="400" rx="8" fill="#B1BDB6"/>
+  <rect x="905" y="238" width="16" height="400" rx="8" fill="#C2CCC6"/>
+
+  <line x1="940" y1="280" x2="1110" y2="280" stroke="#1F7A4C" stroke-width="2"/>
+  <line x1="940" y1="420" x2="1110" y2="420" stroke="#1F7A4C" stroke-width="2"/>
+  <line x1="940" y1="560" x2="1110" y2="560" stroke="#1F7A4C" stroke-width="2"/>
+
+  <text x="1122" y="285" font-size="22" fill="#111111" font-family="Inter, Arial, sans-serif">AI Module</text>
+  <text x="1122" y="425" font-size="22" fill="#111111" font-family="Inter, Arial, sans-serif">Sorting Unit</text>
+  <text x="1122" y="565" font-size="22" fill="#111111" font-family="Inter, Arial, sans-serif">Sensor Bay</text>
+
+  <circle cx="904" cy="280" r="7" fill="#2ECC71"/>
+  <circle cx="904" cy="420" r="7" fill="#2ECC71"/>
+  <circle cx="904" cy="560" r="7" fill="#2ECC71"/>
+</svg>
