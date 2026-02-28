@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { useLocale } from "@/app/components/locale-provider";
 import { localeOptions, type Locale } from "@/app/lib/i18n";
 
@@ -20,9 +22,8 @@ export function TopNav() {
   return (
     <nav className="fixed inset-x-0 top-0 z-50 border-b border-coby-border/35 bg-coby-dark/88 backdrop-blur-xl">
       <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#hero" className="inline-flex items-center gap-2">
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-coby-primary text-sm font-bold text-white">C</span>
-          <span className="text-sm font-semibold tracking-[0.14em] text-coby-heroText">COBY</span>
+        <a href="#hero" className="inline-flex items-center">
+          <Image src="/images/logo.png" alt="COBY logo" width={194} height={64} className="h-48 w-auto" priority />
         </a>
 
         <ul className="hidden items-center gap-5 text-xs font-medium uppercase tracking-[0.08em] text-coby-heroMuted lg:flex">

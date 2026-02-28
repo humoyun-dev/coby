@@ -7,7 +7,7 @@ const schema = {
       "@type": "Organization",
       name: "COBY",
       url: "https://coby.uz",
-      logo: "https://coby.uz/images/coby-machine.svg",
+      logo: "https://coby.uz/images/logo.png",
       description:
         "Sustainable recycling infrastructure platform in Uzbekistan connecting AI-enabled collection devices with retail-integrated EcoCoin incentives.",
       sameAs: ["https://www.instagram.com/coby.uz"]

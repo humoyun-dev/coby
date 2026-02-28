@@ -47,6 +47,11 @@ export const metadata: Metadata = {
     description: "AI-powered recycling platform with EcoCoin retail incentives via Korzinka and 365 brand products.",
     images: ["/images/coby-machine.svg"]
   },
+  icons: {
+    icon: [{ url: "/images/logo.png", type: "image/png" }],
+    shortcut: ["/images/logo.png"],
+    apple: [{ url: "/images/logo.png" }]
+  },
   alternates: {
     canonical: "https://coby.uz"
   },
