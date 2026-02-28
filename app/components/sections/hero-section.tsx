@@ -62,10 +62,10 @@ export function HeroSection() {
           <div className="absolute -inset-x-14 bottom-2 h-20 rounded-full bg-coby-accent/18 blur-3xl" aria-hidden />
           <div className="relative overflow-hidden rounded-3xl border border-coby-heroText/12 bg-coby-heroCard/80 p-3 shadow-hero">
             <Image
-              src="/images/coby-machine.svg"
+              src="/images/device.png"
               alt="COBY machine render in studio lighting"
-              width={1000}
-              height={1280}
+              width={1536}
+              height={1024}
               className="h-auto w-full"
               priority
             />

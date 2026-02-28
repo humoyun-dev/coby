@@ -22,7 +22,7 @@ export function TechnologySection() {
     <section id="technology" className="bg-coby-surface py-16 sm:py-20 lg:py-24">
       <div className="mx-auto grid w-full max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_1fr] lg:px-8">
         <figure className="overflow-hidden rounded-3xl border border-coby-border bg-coby-surfaceMuted p-4 shadow-panel">
-          <Image src="/images/coby-cutaway.svg" alt="Industrial cutaway render of COBY device" width={1200} height={900} className="h-auto w-full" />
+          <Image src="/images/3Dcutaway.png" alt="COBY 3D cutaway" width={1536} height={1024} className="h-auto w-full" />
         </figure>
 
         <div>

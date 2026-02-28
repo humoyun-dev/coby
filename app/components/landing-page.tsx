@@ -7,6 +7,7 @@ import { RoadmapSection } from "@/app/components/sections/roadmap-section";
 import { SolutionArchitectureSection } from "@/app/components/sections/solution-architecture-section";
 import { StakeholderValueSection } from "@/app/components/sections/stakeholder-value-section";
 import { TechnologySection } from "@/app/components/sections/technology-section";
+import { WorkflowSection } from "@/app/components/sections/workflow-section";
 import { LocaleProvider } from "@/app/components/locale-provider";
 import { SiteFooter } from "@/app/components/site-footer";
 import { TopNav } from "@/app/components/top-nav";
@@ -19,6 +20,7 @@ export function LandingPage() {
         <HeroSection />
         <ProblemDataSection />
         <SolutionArchitectureSection />
+        <WorkflowSection />
         <StakeholderValueSection />
         <TechnologySection />
         <GovernanceSection />
